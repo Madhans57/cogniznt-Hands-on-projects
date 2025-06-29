@@ -1,0 +1,10 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class AppTest {
+   AppTest() {
+   }
+
+   @Test
+   void testPrintNum() {
+      throw new Error("Unresolved compilation problem: \n\tTest cannot be resolved to a type\n");
+   }
+}
