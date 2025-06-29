@@ -23,6 +23,3 @@ BEGIN
   COMMIT;
 END;
 
-SET SERVEROUTPUT ON;
-EXEC ProcessMonthlyInterest;
-
