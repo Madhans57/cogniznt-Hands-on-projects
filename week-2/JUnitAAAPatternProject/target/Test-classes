@@ -1,0 +1,40 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+public class CalculatorTest {
+   private Calculator calculator;
+
+   public CalculatorTest() {
+   }
+
+   @Before
+   public void setUp() {
+      this.calculator = new Calculator();
+      System.out.println("Setup done.");
+   }
+
+   @After
+   public void tearDown() {
+      this.calculator = null;
+      System.out.println("Teardown done.");
+   }
+
+   @Test
+   public void testAddition() {
+      int a = 10;
+      int b = 5;
+      int result = this.calculator.add(a, b);
+      Assert.assertEquals(15L, (long)result);
+   }
+
+   @Test
+   public void testSubtraction() {
+      int a = 10;
+      int b = 4;
+      int result = this.calculator.subtract(a, b);
+      Assert.assertEquals(6L, (long)result);
+   }
+}
