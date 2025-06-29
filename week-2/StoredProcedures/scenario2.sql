@@ -26,6 +26,4 @@ BEGIN
   COMMIT;
 END;
 
-SET SERVEROUTPUT ON;
-EXEC UpdateEmployeeBonus(10, 5);  -- 5% bonus to department 10
 
