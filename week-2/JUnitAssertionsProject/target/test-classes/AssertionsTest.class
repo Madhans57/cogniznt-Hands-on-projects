@@ -1,0 +1,16 @@
+import org.junit.Assert;
+import org.junit.Test;
+
+public class AssertionsTest {
+   public AssertionsTest() {
+   }
+
+   @Test
+   public void testAssertions() {
+      Assert.assertEquals(5L, 5L);
+      Assert.assertTrue(true);
+      Assert.assertFalse(false);
+      Assert.assertNull((Object)null);
+      Assert.assertNotNull(new Object());
+   }
+}
